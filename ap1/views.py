@@ -30,7 +30,7 @@ def bw_image(request, pk):
 #         data = json.loads(request.body)
 #         message = data.get('message', '')
 
-#         api_key = "AIzaSyAyr7vovEdSIPLK43soiSvtHzDAC-mG-UY"
+#         api_key = "api-key(insert yours)"
 #         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={api_key}"
 #         headers = {
 #             'Content-Type': 'application/json',
@@ -65,7 +65,7 @@ def chat(request):
         data = json.loads(request.body)
         message = data.get('message', '')
 
-        api_key = "AIzaSyAyr7vovEdSIPLK43soiSvtHzDAC-mG-UY"
+        api_key = "api_key(insert yours)"
         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={api_key}"
         headers = {
             'Content-Type': 'application/json',
